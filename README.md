@@ -21,14 +21,17 @@ re-uploaded.
 
 ## Using the mirror
 
-In the mLearn desktop app, set the language catalog URL (settings →
-language catalog URL) to:
+In the mLearn desktop app (Settings → Connection), set:
 
-    https://raw.githubusercontent.com/kikans/mlearn-cdn-mirror/main/language-catalog.json
+    Language catalog URL:
+        https://raw.githubusercontent.com/kikans/mlearn-cdn-mirror/main/language-catalog.json
+    Runtime catalog URL:
+        https://raw.githubusercontent.com/kikans/mlearn-cdn-mirror/main/runtime-catalog.json
 
-The Python runtime catalog is fetched once during first-time setup and its URL
-is currently fixed in the app build; a mirror override for it is a small app
-change tracked separately.
+The runtime catalog is used once during first-time setup to download the
+Python runtime; the language catalog is used for language and dictionary
+packages. Both default to the Cloudflare-hosted originals, so leaving them
+empty uses the standard servers.
 
 ## Syncing
 
