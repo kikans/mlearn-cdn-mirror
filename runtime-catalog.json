@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-10T16:04:26.571Z",
+  "version": "python-runtimes-2026-07-10",
+  "runtimes": {
+    "darwin-arm64": {
+      "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/python-darwin-arm64-508e8cbf83f5.tar.gz",
+      "sha256": "508e8cbf83f542cd94b77b6604ceef4bb008c4aefc13fb6fdfae9a7a80e36faf",
+      "sizeBytes": 20117564
+    },
+    "darwin-x64": {
+      "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/python-darwin-x64-efe5a725af21.tar.gz",
+      "sha256": "efe5a725af211bccaf3c1cc5916186e875b287a2a1dba056a1963e9eebd6e8c6",
+      "sizeBytes": 20100313
+    },
+    "linux-x64": {
+      "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/python-linux-x64-fbb8a67888f5.tar.gz",
+      "sha256": "fbb8a67888f58d876df8bf524c822f2457fd7503ecec03b5fd68a778aa65c8c9",
+      "sizeBytes": 48444589
+    },
+    "win32-x64": {
+      "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/python-win32-x64-ca4bb73ae335.tar.gz",
+      "sha256": "ca4bb73ae3358a690c498b21ec8f637d824350ebbf5361d76089afee8d68d03e",
+      "sizeBytes": 48757270
+    }
+  }
+}

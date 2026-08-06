@@ -1,0 +1,599 @@
+{
+  "generatedAt": "2026-07-31T17:00:38.371Z",
+  "languages": {
+    "cu": {
+      "name": "Church Slavonic",
+      "nameTranslated": "церковнославянский",
+      "version": "cu-package-2026.07.19",
+      "minimumAppVersion": "2.7.0",
+      "bundle": {
+        "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/language-package-2026.07.19-2c38fe25c000.tar.gz",
+        "sizeBytes": 346214,
+        "sha256": "2c38fe25c00056d1b731f77c3a03fc9e39c9f1d81d821164c5059aec6600ab94"
+      },
+      "files": [
+        {
+          "id": "frequency",
+          "path": "languages/cu.freq.json",
+          "sizeBytes": 1143243,
+          "sha256": "2fec2d68498642eb6c1c72f93130f3fcccb9a048e62fd084e8c4e5d6fcffd394",
+          "required": true
+        },
+        {
+          "id": "font-ponomar",
+          "path": "fonts/cu/Ponomar-Regular.woff2",
+          "sizeBytes": 135632,
+          "sha256": "5b36814f0cf948c93e21f7b4ee4237b9a0f9008c5c49f5553102ea861496a242",
+          "required": true
+        },
+        {
+          "id": "ponomar-license",
+          "path": "licenses/ponomar-OFL.txt",
+          "sizeBytes": 4388,
+          "sha256": "726345814b647092b945987450be3546a9c842861adad8f007e26fd3fad2b575",
+          "required": true
+        },
+        {
+          "id": "ponomar-readme",
+          "path": "licenses/ponomar-README.md",
+          "sizeBytes": 272,
+          "sha256": "5227caa5788cb5ba667118d2ad03610b0d55ba2ea711296468d483a9e0c1e924",
+          "required": true
+        },
+        {
+          "id": "frequency-corpus-notice",
+          "path": "licenses/csl-elizabeth-PUBLIC-DOMAIN.md",
+          "sizeBytes": 328,
+          "sha256": "9d6fa683468d33a19f163388180d9174fcd345f5db36a11ad548c7b3a155f17a",
+          "required": true
+        },
+        {
+          "id": "language-metadata",
+          "path": "languages/cu.json",
+          "sizeBytes": 13218,
+          "sha256": "5e3524cdbb5233897f93dd9c250ec242498d9e071259717292046b7dddbe9bb4",
+          "required": true
+        }
+      ],
+      "dictionaryPacks": {
+        "en": {
+          "targetLanguage": "en",
+          "name": "English",
+          "version": "cu-en-kaikki-2026.07.16",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-kaikki-2026.07.16-3d55fc89dc75.tar.gz",
+            "sizeBytes": 13962728,
+            "sha256": "3d55fc89dc75760641fb1fca4e1efac7f09109aea96682a3c1a063a033aade74"
+          },
+          "assets": [
+            {
+              "id": "dictionary-en",
+              "path": "dictionaries/cu/en/dictionary.db",
+              "sizeBytes": 29908992,
+              "sha256": "1c7a4ddeadaf704020682516b1d81a911cca42ea4513d04ffc2c1951bee1aa7b",
+              "required": true
+            },
+            {
+              "id": "metadata-en",
+              "path": "dictionaries/cu/en/metadata.json",
+              "sizeBytes": 431,
+              "sha256": "f59eb92144420dba6123156d5b030d731a660464ecae131f19bb4675b41c905b",
+              "required": true
+            },
+            {
+              "id": "license-en",
+              "path": "dictionaries/cu/en/LICENSE",
+              "sizeBytes": 252,
+              "sha256": "671016a59c46a1a8afe1a964d766c98397893de6034da58c9031f77bbe888fd1",
+              "required": true
+            },
+            {
+              "id": "readme-en",
+              "path": "dictionaries/cu/en/README.md",
+              "sizeBytes": 289,
+              "sha256": "f8a0b4b424eb33f637799033d0dc0477606be9435ed0c730562d6e83fbfa92c4",
+              "required": true
+            }
+          ]
+        }
+      }
+    },
+    "de": {
+      "name": "German",
+      "nameTranslated": "Deutsch",
+      "version": "de-package-2026.07.19",
+      "bundle": {
+        "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/language-package-2026.07.19-a106f522b088.tar.gz",
+        "sizeBytes": 232848,
+        "sha256": "a106f522b0888ccda0002c4ef143a77ee74ae191b031caeb6cbceaa2b8a3817a"
+      },
+      "files": [
+        {
+          "id": "frequency",
+          "path": "languages/de.freq.json",
+          "sizeBytes": 718803,
+          "sha256": "82f2aac92c18696cd2acaabd1ffb936039365973e79a46b21f4cf1f811b93080",
+          "required": true
+        },
+        {
+          "id": "frequencywords-notice",
+          "path": "licenses/frequencywords-README.md",
+          "sizeBytes": 601,
+          "sha256": "1a57c763fdd846b0af645f2c5d69af64c12d217bcdf0a441b17c6a641a491379",
+          "required": true
+        },
+        {
+          "id": "language-metadata",
+          "path": "languages/de.json",
+          "sizeBytes": 3217,
+          "sha256": "281f146494fe6cfde924250fe06cc29cb8b2d20e7590f4e1eb01c6ff09f6ba82",
+          "required": true
+        }
+      ],
+      "dictionaryPacks": {
+        "en": {
+          "targetLanguage": "en",
+          "name": "English",
+          "version": "de-en-dictionary-de-package-2026.06.29",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-de-package-2026.06.29-30cd0ae35244.tar.gz",
+            "sizeBytes": 64575712,
+            "sha256": "30cd0ae35244de5ed1b382bc19aa02830b793dfd18c803c61612d8c8f60dcf5c"
+          },
+          "assets": [
+            {
+              "id": "dictionary",
+              "path": "dictionaries/de/en/dictionary.db",
+              "sizeBytes": 99393536,
+              "sha256": "324715d0e8e9dc20ac574d48ffbb3075e9461acdcc5b5cc7c17318f81641ee81",
+              "required": true
+            },
+            {
+              "id": "metadata",
+              "path": "dictionaries/de/en/metadata.json",
+              "sizeBytes": 239,
+              "sha256": "99206f37fe2b13dfc720d3c01246b8d97b6300eb370e51f338fc6876fb3665ad",
+              "required": true
+            }
+          ]
+        }
+      }
+    },
+    "es": {
+      "name": "Spanish",
+      "nameTranslated": "Español",
+      "version": "es-package-2026.07.19",
+      "minimumAppVersion": "2.7.0",
+      "bundle": {
+        "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/language-package-2026.07.19-4de85a4f7cf8.tar.gz",
+        "sizeBytes": 227919,
+        "sha256": "4de85a4f7cf84dc98b9c6afaa8a3ca7b31d29520f74e4d79ba8e5332e1219323"
+      },
+      "files": [
+        {
+          "id": "frequency",
+          "path": "languages/es.freq.json",
+          "sizeBytes": 694245,
+          "sha256": "9ecd3a4a0d6c88246da23d2892b5535d9d2571d09938c58753b62c9782ef57f5",
+          "required": true
+        },
+        {
+          "id": "frequencywords-notice",
+          "path": "licenses/frequencywords-README.md",
+          "sizeBytes": 601,
+          "sha256": "1a57c763fdd846b0af645f2c5d69af64c12d217bcdf0a441b17c6a641a491379",
+          "required": true
+        },
+        {
+          "id": "language-metadata",
+          "path": "languages/es.json",
+          "sizeBytes": 19241,
+          "sha256": "561f31605089b1160806289a38e773adcc3d049f947c6b8a8dd0d21f2554bdcf",
+          "required": true
+        }
+      ],
+      "dictionaryPacks": {
+        "en": {
+          "targetLanguage": "en",
+          "name": "English",
+          "version": "es-en-freedict-inverted-2025.11.23-2026.07.19",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-freedict-inverted-2025.11.23-2026.07.19-b95819286d36.tar.gz",
+            "sizeBytes": 13256492,
+            "sha256": "b95819286d367a1bb12694d4032138bc337f701f12f08dff3cc456fb02072025"
+          },
+          "assets": [
+            {
+              "id": "dictionary-en",
+              "path": "dictionaries/es/en/dictionary.db",
+              "sizeBytes": 44277760,
+              "sha256": "b0e28533f666d6994a7b893c846a5fa7f74b1615b5d732c6d09f7ead07bc0151",
+              "required": true
+            },
+            {
+              "id": "metadata-en",
+              "path": "dictionaries/es/en/metadata.json",
+              "sizeBytes": 275,
+              "sha256": "280858cadd2a96f1dd336fead0fccb0ddf8378bf77158e45895b525f5a0bc521",
+              "required": true
+            },
+            {
+              "id": "license-en",
+              "path": "dictionaries/es/en/LICENSE",
+              "sizeBytes": 22459,
+              "sha256": "41a8f57655bae359bea4a7e99c7a2aed171687d3dfb49614214538ba6dcbe75b",
+              "required": true
+            },
+            {
+              "id": "readme-en",
+              "path": "dictionaries/es/en/README.md",
+              "sizeBytes": 463,
+              "sha256": "a724b0e98899139ad744fd0ae308bc5afa238516a281b90e8bab48a5414dff1d",
+              "required": true
+            }
+          ]
+        }
+      }
+    },
+    "ja": {
+      "name": "Japanese",
+      "nameTranslated": "日本語",
+      "version": "ja-package-2026.07.20",
+      "bundle": {
+        "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/language-package-2026.07.20-fddb4651ed8e.tar.gz",
+        "sizeBytes": 82740,
+        "sha256": "fddb4651ed8eb51e7c2e505f9534a53d083bee1120593b8ebd5ba71cc0bdc55f"
+      },
+      "files": [
+        {
+          "id": "frequency",
+          "path": "languages/ja.freq.json",
+          "sizeBytes": 480020,
+          "sha256": "2c1b5e48bb76793bc20ae2ff11e01aa9f24ed5ce4991144144f84b36427d182a",
+          "required": true
+        },
+        {
+          "id": "language-metadata",
+          "path": "languages/ja.json",
+          "sizeBytes": 35078,
+          "sha256": "917f56c6e58ae39808c5f64a11cd2c1ef38428253c14e793157aa7dcfc1a05bc",
+          "required": true
+        }
+      ],
+      "dictionaryPacks": {
+        "de": {
+          "targetLanguage": "de",
+          "name": "German",
+          "version": "ja-de-dictionary-jmdict-2026.06.29",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-jmdict-2026.06.29-115e10c8a860.tar.gz",
+            "sizeBytes": 90476686,
+            "sha256": "115e10c8a860875ada17cbbf305208f776e416f150fd5e5b679acdaa62593e3b"
+          },
+          "assets": [
+            {
+              "id": "dictionary-de",
+              "path": "dictionaries/ja/de/dictionary.db",
+              "sizeBytes": 135290880,
+              "sha256": "2e3ffa18f1820b04023807f7809f7fa81f3d2c99785415c1d55d4a3934a975b7",
+              "required": true
+            },
+            {
+              "id": "metadata-de",
+              "path": "dictionaries/ja/de/metadata.json",
+              "sizeBytes": 411,
+              "sha256": "4037fd3e308fba7b27e9e10270dfcd1d61eb9b46429d9cb011b35a726231c9e1",
+              "required": true
+            }
+          ]
+        },
+        "en": {
+          "targetLanguage": "en",
+          "name": "English",
+          "version": "ja-en-dictionary-ja-package-2026.06.29",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-ja-package-2026.06.29-fbc7f7ab7900.tar.gz",
+            "sizeBytes": 214016660,
+            "sha256": "fbc7f7ab79003cc944982da092b7a840958937f03d935f6958732e0a5712a48f"
+          },
+          "assets": [
+            {
+              "id": "dictionary",
+              "path": "dictionaries/ja/en/dictionary.db",
+              "sizeBytes": 273133568,
+              "sha256": "487ed1a49baaece683cb2f107436cb93652a1d10438a4fdf24edc660d7d258f0",
+              "required": true
+            },
+            {
+              "id": "metadata-en",
+              "path": "dictionaries/ja/en/metadata.json",
+              "sizeBytes": 1081,
+              "sha256": "97031e755bdb4e92d28e371e64f853fa690c0e664c80e3d994560787066d21c9",
+              "required": true
+            }
+          ]
+        },
+        "fr": {
+          "targetLanguage": "fr",
+          "name": "French",
+          "version": "ja-fr-dictionary-jmdict-2026.06.29",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-jmdict-2026.06.29-db7bd1b368e3.tar.gz",
+            "sizeBytes": 14759095,
+            "sha256": "db7bd1b368e3de8754d5f52fb09ec819c468c87441bbd7a6940feecc040df81a"
+          },
+          "assets": [
+            {
+              "id": "dictionary-fr",
+              "path": "dictionaries/ja/fr/dictionary.db",
+              "sizeBytes": 31145984,
+              "sha256": "7f49c4490243022452a55ca7c33fe427d029f392ab08dcf2b23abb9d9c63074d",
+              "required": true
+            },
+            {
+              "id": "metadata-fr",
+              "path": "dictionaries/ja/fr/metadata.json",
+              "sizeBytes": 410,
+              "sha256": "c731265b313d6a5703612c5a212a403c483d947966a707ddd4693641c14fa732",
+              "required": true
+            }
+          ]
+        }
+      }
+    },
+    "ru": {
+      "name": "Russian",
+      "nameTranslated": "Русский",
+      "version": "ru-package-2026.07.19",
+      "bundle": {
+        "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/language-package-2026.07.19-8361da214361.tar.gz",
+        "sizeBytes": 4059966,
+        "sha256": "8361da214361c660a83dd0adeae838e75c78a2db5d2b2c859bcfcb22e1e97bf3"
+      },
+      "files": [
+        {
+          "id": "frequency",
+          "path": "languages/ru.freq.json",
+          "sizeBytes": 2735320,
+          "sha256": "790bd15198fd69b83ab1905a39a234ce9f857bcc3092e963bfe5611f4fa13d1a",
+          "required": true
+        },
+        {
+          "id": "frequency-smartool",
+          "path": "languages/ru.smartool.freq.json",
+          "sizeBytes": 140097,
+          "sha256": "987813dc50516fce8bc36c67815367182822735caa46c626a55a507e021c642b",
+          "required": true
+        },
+        {
+          "id": "pronunciation",
+          "path": "languages/ru.pronunciation.json.gz",
+          "sizeBytes": 3550624,
+          "sha256": "97b8dcfe7c744abaf7ff62991cdec780d663da2fc0dda5946fb0ec332cdb6dce",
+          "required": true
+        },
+        {
+          "id": "python-adapter",
+          "path": "adapters/russian_adapter.py",
+          "sizeBytes": 4341,
+          "sha256": "b9f703bdd2b44ce760cdcdc89e2c2cbef56cd6de9abb8db2b4474b104b87ab8f",
+          "required": true
+        },
+        {
+          "id": "openrussian-license",
+          "path": "licenses/openrussian-LICENSE",
+          "sizeBytes": 140,
+          "sha256": "7768460d4b04946bd60b43b522bdbcc3804be6490d52b763a11499c65aee03a9",
+          "required": true
+        },
+        {
+          "id": "openrussian-readme",
+          "path": "licenses/openrussian-README.md",
+          "sizeBytes": 199,
+          "sha256": "d5dd5b1807bda1cacfbd59e3e00ef23b8eac938ad5936d58b00ed03db7085b07",
+          "required": true
+        },
+        {
+          "id": "smartool-license",
+          "path": "licenses/smartool-LICENSE",
+          "sizeBytes": 18656,
+          "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+          "required": true
+        },
+        {
+          "id": "smartool-readme",
+          "path": "licenses/smartool-README.md",
+          "sizeBytes": 11201,
+          "sha256": "adeb8deb211cdc7865ef9401fc6cbeb498b718a9d9a34fc59481e9e03ba1690b",
+          "required": true
+        },
+        {
+          "id": "language-metadata",
+          "path": "languages/ru.json",
+          "sizeBytes": 36219,
+          "sha256": "59d6fb6902879ab0d32dc7b969116a7c9efeb478b8745a3bab305c585c823d86",
+          "required": true
+        }
+      ],
+      "dictionaryPacks": {
+        "de": {
+          "targetLanguage": "de",
+          "name": "German",
+          "version": "ru-de-openrussian-2026.07.18",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-openrussian-2026.07.18-581632e03d50.tar.gz",
+            "sizeBytes": 102257353,
+            "sha256": "581632e03d50aad61b0622c5b7ce93474f30bc067c92b53b1629160e8db2e453"
+          },
+          "assets": [
+            {
+              "id": "dictionary-de",
+              "path": "dictionaries/ru/de/dictionary.db",
+              "sizeBytes": 178651136,
+              "sha256": "70653a6e7521e0c6e39c19493a066a4a317489d7ae82a60d5d9e8cb9e766314e",
+              "required": true
+            },
+            {
+              "id": "metadata-de",
+              "path": "dictionaries/ru/de/metadata.json",
+              "sizeBytes": 295,
+              "sha256": "b9d580a9b3ab8002e85c88702cac737740e177e3b199afaa13b4a073036fe200",
+              "required": true
+            },
+            {
+              "id": "license-de",
+              "path": "dictionaries/ru/de/LICENSE",
+              "sizeBytes": 140,
+              "sha256": "7768460d4b04946bd60b43b522bdbcc3804be6490d52b763a11499c65aee03a9",
+              "required": true
+            },
+            {
+              "id": "readme-de",
+              "path": "dictionaries/ru/de/README.md",
+              "sizeBytes": 162,
+              "sha256": "ed031f7b703fb7463f5942b49d589898a180e1935add4a04d543b90a205c7796",
+              "required": true
+            }
+          ]
+        },
+        "en": {
+          "targetLanguage": "en",
+          "name": "English",
+          "version": "ru-en-openrussian-2026.07.18",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-openrussian-2026.07.18-56909b76e019.tar.gz",
+            "sizeBytes": 81883795,
+            "sha256": "56909b76e019ad7248e0e5efa04b2695de381e809c62b3549671695fce3cedae"
+          },
+          "assets": [
+            {
+              "id": "dictionary-en",
+              "path": "dictionaries/ru/en/dictionary.db",
+              "sizeBytes": 146616320,
+              "sha256": "c5840031bd14fc1b7bc700eac69e0f5d27a850c9bc065f088b896d21c9fc0151",
+              "required": true
+            },
+            {
+              "id": "metadata-en",
+              "path": "dictionaries/ru/en/metadata.json",
+              "sizeBytes": 295,
+              "sha256": "a9c469e93e0aadb30ee2d90011789282f3a8d1198f6d545e7ba76cf2fcb72873",
+              "required": true
+            },
+            {
+              "id": "license-en",
+              "path": "dictionaries/ru/en/LICENSE",
+              "sizeBytes": 140,
+              "sha256": "7768460d4b04946bd60b43b522bdbcc3804be6490d52b763a11499c65aee03a9",
+              "required": true
+            },
+            {
+              "id": "readme-en",
+              "path": "dictionaries/ru/en/README.md",
+              "sizeBytes": 162,
+              "sha256": "5865dfe1e7b3570dc8c0bc767e40fa7af76b3ef97431732b3ce68e99a5f75414",
+              "required": true
+            }
+          ]
+        }
+      }
+    },
+    "zh": {
+      "name": "Mandarin Chinese",
+      "nameTranslated": "简体中文",
+      "version": "zh-package-2026.07.31",
+      "minimumAppVersion": "2.8.0",
+      "bundle": {
+        "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/language-package-2026.07.31-c50deb1d53e6.tar.gz",
+        "sizeBytes": 833191,
+        "sha256": "c50deb1d53e64dd8f827e6f11127a7767575aefdf515dd8eef05b42f380c27c6"
+      },
+      "files": [
+        {
+          "id": "frequency",
+          "path": "languages/zh.freq.json",
+          "sizeBytes": 515977,
+          "sha256": "e4f1f451ab109d0a6023fb93cd87c53994cdede87bc1dfc54d06ec0304dd31dd",
+          "required": true
+        },
+        {
+          "id": "python-adapter",
+          "path": "adapters/mandarin_adapter.py",
+          "sizeBytes": 2241,
+          "sha256": "9473d5012284162df5979314fd0c510d58994a0e92f1a5519db38a3304ab3257",
+          "required": true
+        },
+        {
+          "id": "hsk-license",
+          "path": "licenses/complete-hsk-vocabulary-LICENSE",
+          "sizeBytes": 1075,
+          "sha256": "21094287f6e487f6978cf240c67603e4a0e9f341c6e732558d052feb44210c8f",
+          "required": true
+        },
+        {
+          "id": "hsk-readme",
+          "path": "licenses/complete-hsk-vocabulary-README.md",
+          "sizeBytes": 180,
+          "sha256": "794abde3afaaf9a54043aa2d0323047c409b3d3d3ce5e47cce6bb7f5b5a8dfb5",
+          "required": true
+        },
+        {
+          "id": "t2s-table",
+          "path": "languages/zh.t2s.json",
+          "sizeBytes": 1812902,
+          "sha256": "ee9a334a82a9b9f18100b2f3c53c22183858ed1a8532c1facf333453dc1df768",
+          "required": true
+        },
+        {
+          "id": "language-metadata",
+          "path": "languages/zh.json",
+          "sizeBytes": 56363,
+          "sha256": "83d741a9476a9b9476ec53009aba385d25e9e9865deeaec6a4f48801b3b47843",
+          "required": true
+        }
+      ],
+      "dictionaryPacks": {
+        "en": {
+          "targetLanguage": "en",
+          "name": "English",
+          "version": "zh-en-cc-cedict-2026.07.31",
+          "bundle": {
+            "url": "https://github.com/kikans/mlearn-cdn-mirror/releases/download/cdn-v1/dictionary-cc-cedict-2026.07.31-62ebe4d913d5.tar.gz",
+            "sizeBytes": 22599029,
+            "sha256": "62ebe4d913d5c78a55d955e9c4a780555dcb32ad3f6b2d3e417b49d8b04fcf86"
+          },
+          "assets": [
+            {
+              "id": "dictionary-en",
+              "path": "dictionaries/zh/en/dictionary.db",
+              "sizeBytes": 46972928,
+              "sha256": "3ca110109904ca9fa13039166527ef4a8d7de922bd4d57b7cf5bb106e7673434",
+              "required": true
+            },
+            {
+              "id": "metadata-en",
+              "path": "dictionaries/zh/en/metadata.json",
+              "sizeBytes": 342,
+              "sha256": "01336820498846dd433937b200d435e9d8e1caaf4428cb53555f05d9878a9d87",
+              "required": true
+            },
+            {
+              "id": "license-en",
+              "path": "dictionaries/zh/en/LICENSE",
+              "sizeBytes": 120,
+              "sha256": "7789480b66b1caf89c262805b7168ba6bc272ebd2571e74fe1f3eb8565675666",
+              "required": true
+            },
+            {
+              "id": "readme-en",
+              "path": "dictionaries/zh/en/README.md",
+              "sizeBytes": 208,
+              "sha256": "69d75f831c8232d2e9462697d8a83f5949f0cdfc956317bd5926bf707a71945b",
+              "required": true
+            }
+          ]
+        }
+      }
+    }
+  }
+}
