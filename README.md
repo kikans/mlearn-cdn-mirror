@@ -21,17 +21,21 @@ re-uploaded.
 
 ## Using the mirror
 
-In the mLearn desktop app (Settings → Connection), set:
+Usually there is nothing to configure. When the default catalogs
+(mlearn.kikan.net, fronted by Cloudflare) are unreachable, the mLearn app
+automatically probes mirror0.cdn.kikan.net, mirror1.cdn.kikan.net, ... for
+the same catalog paths, and uses the last reachable mirror. The probe
+domain is configurable in Settings -> Connection -> Catalog Mirrors
+(default: cdn.kikan.net; empty disables probing).
 
-    Language catalog URL:
-        https://raw.githubusercontent.com/kikans/mlearn-cdn-mirror/main/language-catalog.json
-    Runtime catalog URL:
-        https://raw.githubusercontent.com/kikans/mlearn-cdn-mirror/main/runtime-catalog.json
+Both catalogs are also served directly from this Pages site:
+
+    https://mirror0.cdn.kikan.net/language-catalog.json
+    https://mirror0.cdn.kikan.net/runtime-catalog.json
 
 The runtime catalog is used once during first-time setup to download the
 Python runtime; the language catalog is used for language and dictionary
-packages. Both default to the Cloudflare-hosted originals, so leaving them
-empty uses the standard servers.
+packages.
 
 ## Syncing
 
